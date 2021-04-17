@@ -1,0 +1,131 @@
+*{margin: 0;padding: 0;}li{list-style: none;}a{text-decoration: none;}div{box-sizing: border-box;}
+.box{
+    width: 100%;
+    height: auto;
+}
+/* --------------------------main----------------------- */
+.main{
+    width: 100%;
+    height: auto;
+    padding-bottom: 86px;
+}
+.mBwall{
+    width: 100%;
+    height: 475px;
+    background: url(../../IMG/index/main/mainbackground.jpg) no-repeat 0 0 /100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.mBwbox{
+    width: 455.7px;
+    height: 366.2px;
+    padding: 220px 20px 0;
+    margin: 59px auto 50px;
+}
+.mBwbox>h1{
+    box-sizing: border-box;
+    width: 100%;
+    height: 73.2px;
+    padding: 0 0 30px;
+    font-size: 24px;
+    color: #ccac70;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1.8;
+}
+.mBwbox>div{
+    width: 245px;
+    height: 48px;
+    background: border-box;
+    background: #000;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #000;
+    font-size: 10.33px;
+    margin: 0 auto 25px;
+    letter-spacing: .125rem;
+    cursor: pointer;
+}
+/* 轮播图 */
+.indexrunbox{
+    width: 100%;
+    max-width: 1440px;
+    height: 465px;
+    margin: 0 auto;
+}
+.irbbox{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 30px;
+    padding:  0 30px;
+    color: #333;
+    position: relative;
+}
+.irbbox>h1{
+    width: 100%;
+    height: 34.4px;
+    margin: 30px 0;
+    color: #333;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 9px;
+}
+.irbbrun{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.irbbrun>div{
+    width: 4650px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.irbbrun>div>li{
+    box-sizing: border-box;
+    width: 450px;
+    height: 100%;
+    margin-right: 15px;
+    float: left;
+    font-size: 14px;
+}
+.irbbrun>div>li>img{
+    width: 100%;
+    background: #f0ede8;
+    display: block;
+    height: auto;
+    cursor: pointer;
+}
+.irbbrun>div>li>span{
+    display: block;
+    padding: 10px 0 0;
+    margin: 0 auto;
+    width: 70%;
+    box-sizing: border-box;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+}
+.irbbox>i{
+    display: block;
+    width: 13px;
+    height: 20px;
+    position: absolute;
+    top: calc(50% - 10px) ;
+    cursor: pointer;
+}
+.irbbox>i:nth-child(1){
+    background: url(../../IMG/index/main/runleft.svg) no-repeat 0 0 /100%;
+    left: 7px;
+}
+.irbbox>i:nth-child(2){
+    background: url(../../IMG/index/main/runright.svg) no-repeat 0 0 /100%;
+    right: 7px;
+}
+

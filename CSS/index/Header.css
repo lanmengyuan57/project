@@ -1,0 +1,852 @@
+*{margin: 0;padding: 0;}li{list-style: none;}a{text-decoration: none;}div{box-sizing: border-box;}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+.flexnone{
+    display: none !important;
+}
+.visnone{
+    visibility: hidden;
+}
+/* ---------------------header-------------------------- */
+.Header{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    z-index: 2;
+}
+.HeaderBox{
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    position: fixed;
+    border-bottom: 1px solid #e6e6e6;
+}
+.HBheader{
+    width: 100%;
+    height: 55px;
+    padding: 15px 30px;
+}
+.HBhleft{
+    width: 60%;
+    height: 30px;
+    float: left;
+}
+.HBhlleft{
+    width: 200px;
+    height: 25px;
+    float: left;
+}
+.HBhlleft>li{
+    box-sizing: border-box;
+    float: left;
+    width: 65px;
+    height: 100%;
+    border-right: 1px solid #e0e0e0;
+    padding: 0 20px;
+}
+.HBhlleft>li>a>img{
+    width: 24px;
+    height: 25px;
+}
+.HBhlleft>li:last-child>a>img{
+    width: 22px;
+    height: 18px;
+    margin-top: 5px;
+}
+.HBhlleft>li:first-child>a>img{
+    width: 19px;
+    height: 20px;
+    margin-top: 3px;
+}
+.HBhlleft>li>a{
+    display: block;
+    text-align: center;
+}
+.HBhlright{
+    width: 225px;
+    height: 25px;
+    float: left;
+    padding-left: 20px;
+}
+.HBhlright>div{
+    width: 30px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+    background: url(../../IMG/index/header/搜索.png) no-repeat  0 100%/75%;
+    cursor: pointer;
+
+}
+.HBhlright>input{
+    box-sizing: border-box;
+    width: 140px;
+    height: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding: 0 10px;
+    background: transparent;
+}
+.HBhright{
+    width: 40%;
+    height: 30px;
+    float: right;
+}
+.HBhright>div{
+    float: right;
+}
+.HBhrright{
+    width: 48px;
+    height: 25px;
+    padding-left: 20px;
+    margin-top: 2px;
+}
+.HBhrright>img{
+    width: 98%;
+    height: 100%;
+    cursor: pointer;
+}
+.HBhrleft{
+    width: auto;
+    height: 27px;
+}
+.HBhrleft>li{
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+    padding: 0 20px;
+    margin-top: 2px;
+    height: 24.8px;
+    float: left;
+    font-size: 14px;
+    cursor: default;
+}
+.HBhrleft>li>a{
+    font-size: 13px;
+    line-height: 25px;
+    color: #000;
+    outline: 0;
+}
+.HBhrleft>li>a>img{
+    width: 21px;
+    height: 19.8px;
+    margin-top: 2px;
+}
+.HBhrleft>li:last-child>a{
+    display: inline-block;
+    width: 29px;
+    text-align: center;
+}
+
+/* header-main */
+.HBmain{
+    width: 1280px;
+    height: 60.5px;
+    padding: 0 20px 8px;
+    margin: 0 auto;
+}
+.HBmain>a>img{
+    display: block;
+    width: 385px;
+    height: 38.5px;
+    margin: 0 auto;
+}
+
+/* header-footer */
+.HBfooter{
+    display: flex;
+    width: 100%;
+    height: 33px;
+    justify-content: center;
+}
+.HBfooter>li{
+    padding:0 22.8px 12px 0;
+    height: auto;
+    font-size: 13px;
+    float: left;
+    line-height: 21px;
+}
+.HBfooter>li>a{
+    color: #000;
+}
+.HBfooter>li>span{
+    cursor: pointer;
+}
+.HBfooter>li:first-child>span{
+    color: #ae9477;
+}
+
+
+/* header隐藏部分 */
+/* 二维码 LoginHidden */
+.LoginHidden{
+    width: 400px;
+    height: 290px;
+    border: 1px solid #D2D2D2;
+    background: #fff;
+    position: absolute;
+    right: 29px;
+    top: 55px;
+    padding: 15px 15px 15px 0;
+    outline: 0;
+    z-index: 1;
+}
+.Sharp{
+    box-sizing: initial;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    border-top: 1px solid #d2d2d2;
+    border-left: 1px solid #d2d2d2;
+    background: #fff;
+    transform-origin: center;
+    transform: rotate(45deg);
+    margin-top: -2px;
+}
+.LHmain{
+    width: 100%;
+    height: 100%;
+}
+.LHmleft{
+    width: calc(50% - 20px);
+    height: 100%;
+    float: left;
+}
+.LHmltop{
+    width: 106px;
+    height: 18px;
+    font-size: 14px;
+    margin: 19px auto;
+    margin-top: 0;
+    padding-left: 26px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    background: url(../../IMG/index/header/img-login-scan.png) no-repeat 0 0 ;
+}
+.LHmlmain{
+    width: 150px;
+    height: 150px;
+    margin:20px auto;
+    margin-top: 0;
+    background: url(../../IMG/index/header/erwm.jfif)no-repeat 0 0/100%;
+}
+.LHmleft>p{
+    display: block;
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    font-size: 14px;
+}
+.LHmmain{
+    width: .5px;
+    background: #d5d0c9;
+    height: 233px;
+    float: left;
+}
+.LHmright{
+    width: calc(50% + 19px);
+    height: 100%;
+    float: left;
+    padding-left: 15px;
+}
+.LHmrtop{
+    width: 100%;
+    height: 66.4px;
+    margin-bottom: 9.825px;
+}
+.LHmrtop>p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #3d3d3d;
+    letter-spacing: 1.6px;
+}
+.LHmrtop>input{
+    width: 100%;
+    height: 36px;
+    outline: 0;
+    border: 1px solid #ae9477;
+    padding: 0 13px;
+    box-sizing: border-box;
+}
+.LHmrtop>input::-webkit-input-placeholder{
+    color: #9B9B9B;
+    letter-spacing: 1.6px;
+}
+.LHmrtops{
+    width: 100%;
+    height: 66.4px;
+    margin-bottom: 9.825px;
+}
+.LHmrtops>p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #3d3d3d;
+    letter-spacing: 1.6px;
+}
+.LHmrtops>input{
+    width: 100%;
+    height: 36px;
+    outline: 0;
+    border: 1px solid #ae9477;
+    padding: 0 13px;
+    box-sizing: border-box;
+}
+.LHmrtops>input::-webkit-input-placeholder{
+    color: #9B9B9B;
+    letter-spacing: 1.6px;
+}
+.Tips{
+    font-size: 13px;
+    color: #e02b27;
+    text-align: left;
+    font-weight: 400;
+}
+.Tips>a{
+    color: #e02b27;
+    text-decoration: underline;
+}
+.LHmrmain{
+    width: 100%;
+    height: 18px;
+}
+.LHmrmain>input{
+    margin: 3px 5px 0 0;
+    float: left;
+}
+.LHmrmain>span{
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: normal;
+    text-align: left;
+    float: left;
+}
+.LHmrmain>a{
+    text-decoration: underline;
+    float: right;
+    color: #000;
+    font-size: 13px;
+}
+.Logins{
+    width: 100%;
+    height: 46.8px;
+    margin: 14px 0;
+}
+.Login{
+    width: 88%;
+    height: 100%;
+    background: #000;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding:  0 25px;
+}
+.Login>span{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    cursor: pointer;
+    font-weight: 300px;
+}
+.Logins+p{
+    font-size: 13px;
+    margin-top: -7px;
+}
+.Logins+p>a{
+    color: #000;
+    text-decoration: underline;
+}
+/* 品牌故事BrandStroy */
+.BrandStory{
+    width: 100%;
+    height: 390px;
+    background: #f0ede8;
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    position: relative;
+}
+.BrandStory>div>div>p{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 6px 0 10px 0;
+    display: block;
+    color: #000;
+    cursor: default;
+}
+.BrandStory>div>div>p>strong{
+    font-weight: 400;
+}
+.BrandStory>div>div>li{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 6px 0;
+    cursor: pointer;
+}
+.BrandStory>div>div>li:hover{
+    text-decoration: underline;
+}
+.BrandStory>div>div>li>strong{
+    font-weight: 400;
+}
+/* one */
+.BSone{
+    width: auto;
+    height: 100%;
+}
+.BSone>div{
+    width: 260px;
+    height: 342px;
+    padding: 20px 20px 20px 60px;
+    background: #fff;
+}
+.BSoleft{
+    margin:  0 0 20px;
+    float: left;
+}
+.BSoright{
+    margin: 0 0 20px 150px;
+    position: relative;
+    float: right;
+}
+.BSoright>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BSone0.png) no-repeat;
+}
+/* two */
+.BStwo{
+    width: auto;
+    height: 100%;
+}
+.BStwo>div{
+    width: 260px;
+    height: 342px;
+    padding: 20px 20px 20px 60px;
+    background: #fff;
+}
+.BStleft{
+    margin:  0 0 20px;
+    float: left;
+}
+.BStright{
+    margin: 0 0 20px 150px;
+    position: relative;
+    float: right;
+}
+.BStright>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BStwo0.jpg) no-repeat;
+}
+/* three */
+.BSthree{
+    width: auto;
+    height: 100%;
+}
+.BSthree>div{
+    width: 260px;
+    height: 342px;
+    padding: 20px 20px 20px 60px;
+    background: #fff;
+}
+.BStleft{
+    margin:  0 0 20px;
+}
+
+/* four */
+.BSfour{
+    width: auto;
+    height: 100%;
+}
+.BSfour>div{
+    width: 260px;
+    height: 342px;
+    padding: 20px 20px 20px 60px;
+    background: #fff;
+}
+.BSfleft{
+    margin:  0 0 20px;
+    float: left;
+    position: relative;
+}
+.BSfleft>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BSfour0.jpg) no-repeat;
+}
+.BSfright{
+    margin: 0 0 20px 150px;
+    position: relative;
+    float: right;
+}
+.BSfright>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BSfour1.jpg) no-repeat;
+}
+
+/* five */
+.BSfive{
+    width: auto;
+    height: 100%;
+}
+.BSfive>div{
+    width: 260px;
+    height: 342px;
+    padding: 20px 20px 20px 60px;
+    background: #fff;
+}
+.BSfileft{
+    margin:  0 0 20px;
+    float: left;
+}
+.BSfiright{
+    margin: 0 0 20px 150px;
+    position: relative;
+    float: right;
+}
+.BSfiright>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BSfive0.jpg) no-repeat 0 0/100%;
+}
+
+/* six */
+.BSsix{
+    width: auto;
+    height: 100%;
+}
+.BSsix>div{
+    width: 260px;
+    height: 342px;
+    padding: 20px 20px 20px 60px;
+    background: #fff;
+}
+.BSsleft{
+    margin:  0 0 20px;
+    float: left;
+}
+.BSsright{
+    margin: 0 0 20px 150px;
+    position: relative;
+    float: right;
+}
+.BSsright>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BSsix0.jpg) no-repeat 0 0/100%;
+}
+
+/* seven */
+.BSseven{
+    width: auto;
+    height: 100%;
+}
+.BSseven>div{
+    width: 260px;
+    height: 342px;
+    padding: 20px 20px 20px 60px;
+    background: #fff;
+}
+.BSseright{
+    margin: 0 0 20px 150px;
+    position: relative;
+    float: right;
+}
+.BSseright>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BSseven0.jpg) no-repeat 0 0/100%;
+}
+
+/* eight */
+.BSeight{
+    width: auto;
+    height: 100%;
+}
+.BSeight>div{
+    width: 260px;
+    height: 342px;
+    padding: 20px 20px 20px 60px;
+    background: #fff;
+}
+.BSeleft{
+    margin:  0 0 20px;
+    float: left;
+    position: relative;
+}
+.BSeleft>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BSeight0.jpg) no-repeat 0 0/100%;
+}
+.BSeright{
+    margin: 0 0 20px 150px;
+    position: relative;
+    float: right;
+}
+.BSeright>div{
+    width: 191px;
+    height: 231px;
+    position: absolute;    
+    top: 40px;
+    left: -140px;
+    background: url(../../IMG/index/header/BSeight1.jpg) no-repeat 0 0/100%;
+}
+.BSblack{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    bottom: -500px;
+    left: 0;
+    background: rgba(0,0,0,.8);
+}
+
+/* 购物车 */
+.ShoppingCart{
+    width: 330px;
+    padding: 15px;
+    background: #fff;
+    position: fixed;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 30px 10px #ccc;
+    z-index: 2;
+}
+.Mysc{
+    width: 100%;
+    height: 66.4px;
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    cursor: default;
+}
+.SCclose{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.SCclose>img{
+    width: 15px;
+    height: 15px;
+    margin: 12.5px auto;
+}
+.EmptyCar{
+    text-align: center;
+    padding: 160px 0 100px;
+}
+.EmptyCar>img{
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.EmptyCar>span{
+    font-size: 20px;
+}
+.truck{
+    width: 100%;
+    height: auto;
+}
+.truckAll{
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #d3cec7;
+}
+.truckAll>input{
+    margin: 2px 5px 0 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.truckAll>p{
+    padding: 0px 0 0 25px !important;
+    height: 28px;
+    font-family: 'FuturaBook','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+}
+.truckGoods{
+    width: 100%;
+    overflow-x: auto;
+    border-bottom: 1px solid #d3cec7;
+    height: auto ;
+}
+.truckGoods>ol{
+    max-height: 455px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none none;
+    padding-right: 18px;
+    box-sizing: border-box
+}
+.truckGoods>ol>li{
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+}
+.GSone{
+    display: table;
+    width: 100%;
+}
+.GSone>input{
+    display: table-cell;
+    vertical-align: top;
+    margin: 2px 5px 0 0;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+}
+.GSone>img{
+    width: 80px;
+}
+.GSone>div{
+    padding: 22px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 13px;
+    vertical-align: middle;
+    float: right;
+    position: relative;
+}
+.GSone>div>strong{
+    font-weight: 700;
+    margin: 0 0 10px;
+    font-size: 13px;
+    font-style: inherit;
+    letter-spacing: 1.6px;
+}
+.GSone>div>span{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.GStwo{
+    padding: 10px 0;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.GStwo>span{
+    float: right;
+}
+.GSthree{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.GSthree>div{
+    float: right;
+    width: 70px;
+    height: 20px;
+}
+.GSthree>div>p{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    cursor: default;
+}
+.GSthree>div>span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+}
+.GSfour{
+    padding: 10px 0;
+    font-size:14px;
+}
+.GSfour>p{
+    float: right;
+}
+.truckTotal{
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d3cec7;
+    font-size: 14px;
+}
+.truckTotal>div{
+    line-height: 35px
+}
+.truckTotal>div>p{
+    float: right;
+}
+.PlaceOrder{
+    text-align: center;
+    padding: 24px 0;
+}
+.PlaceOrder>p{
+    display: block;
+    padding-top: 2px;
+    width: 100%;
+    line-height: 43px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.GoShoppingcar{
+    text-align: center;
+    padding: 24px 0;
+    padding-top: 0;
+}
+.GoShoppingcar>p{
+    display: block;
+    padding-top: 2px;
+    width: 100%;
+    line-height: 43px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}

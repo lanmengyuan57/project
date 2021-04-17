@@ -1,0 +1,297 @@
+*{margin: 0;padding: 0;}li{list-style: none;}a{text-decoration: none;}div{box-sizing: border-box;}
+.box{
+    width: 100%;
+    height: auto;
+}
+/* -----------------------------footer------------------------------- */
+.footer{
+    width: 100%;
+    height: auto;
+}
+.ftop{
+    width: 100%;
+    height: 445px;
+    padding: 100px 0;
+    background: #f0ede8;
+}
+.ftop>div{
+    width: 100%;
+    height: 100%;
+}
+.ftop>div>h3{
+    width: 100%;
+    display: block;
+    font-size: 27px;
+    padding: 20px 0;
+    letter-spacing: 10px;
+    box-sizing: border-box;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+}
+.ftop>div>form{
+    width: 50%;
+    height: 142px;
+    max-width: 782px;
+    vertical-align: top;
+    display: flex !important;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    zoom: 1;
+    margin: 0 auto;
+    margin-top: 27px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.ftop>div>form>div{
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    width: 45%;
+    height: auto;
+}
+.ftop>div>form>div>select{
+    display: block;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    appearance: none;
+    border-radius: 0;
+    padding: 12px 8px 8px;
+    background-color: #fff;
+    font-size: 14px;
+    outline: 0;
+    color: #1d1d1f;
+    height: 46px;
+    box-sizing: border-box;
+}
+.ftop>div>form>div>i{
+    border: 6px inset;
+    border-color: transparent transparent transparent #000;
+    border-left-style: solid;
+    border-right-width: 0;
+    transform: rotate(90deg);
+    position: absolute;
+    top: auto;
+    right: 15px;
+    bottom: 15px;
+}
+.ftop>div>form>button{
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+    width: 43%;
+    max-width: 333px;
+    margin-top: 31px;
+    background-color: transparent;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 45px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+/* footer的footer */
+.ffooter{
+    width: 100%;
+    height: 696.4px;
+    background: #1d1d1f;
+}
+.fftop{
+    width: 71%;
+    max-width: 1025px;
+    margin: 0 auto;
+}
+.fftmain{
+    padding: 90px 5% 130px 10%;
+    width: 100%;
+    height: 100%;
+}
+.fftmain>li{
+    width: 24.5%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    margin: 0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+.fftmain>li>h3{
+    color: #5a5a5d;
+    line-height: 2.85714;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: default;
+}
+.fftmain>li>div>p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 2.5;
+    cursor: pointer;
+}
+.fftmain>li>div>p:hover{
+    text-decoration: underline;
+}
+.fftmain>li>dd{
+    width: 25px;
+    height: 25px;
+    background: url(../../IMG/index/footer/微博.png)no-repeat 0 0/100%;
+    margin-bottom: 48px;
+    cursor: pointer;
+}
+.fftmain>li>dd:hover{
+    background: url(../../IMG/index/footer/微博2.png)no-repeat 0 0/100%;
+}
+.fftmain>div{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+}
+.fftmain>div>li:nth-child(1){
+    min-height: 84px;
+    box-sizing: border-box
+}
+.fftmain>div>li>p{
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: center;
+    display: block;
+    margin-bottom: .5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fftmain>div>li>p:hover{
+    text-decoration: underline;
+}
+.fftmain>div>li:nth-child(2)>p{
+    padding: 0 30px;
+}
+.fftmain>div>li>img{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.fftmain>div>li:nth-child(2)>img{
+    width: 20px;
+    height: auto;
+}
+.fffooter{
+    width: 71%;
+    max-width: 100%;
+    border-top: 1px solid #2f2f30;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 70px 0 20px;
+}
+.fffooter>i{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 223px;
+    height: 19px;
+    top: -10px;
+    left: 50%;
+    margin-left: -111.5px;
+    background:#1d1d1f url(../../IMG/index/footer/footer-logo.png) no-repeat center top;
+}
+.fffooter>form{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.fffooter>form>div{
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+    width: 40%;
+}
+.fffooter>form>div>label{
+    color: #fff;
+    line-height: 55px;
+    margin-right: 20px;
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: default;
+    box-sizing: border-box;
+}
+.fffooter>form>div>div{
+    width: 52%;
+    max-width: 259px;
+    vertical-align: top;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+.fffooter>form>div>div>select{
+    color: gray;
+    text-transform: uppercase;
+    line-height: 55px;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 19px;
+    padding-right: 25px;
+    cursor: pointer;
+    height: 55px;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+    font-size: 12px;
+    outline: 0;
+    background: transparent;
+    border: 0;
+}
+.fffooter>form>div>div>i{
+    content: "\f0d8";
+    position: absolute;
+    right: 20px;
+    font-family: 'Font Awesome';
+    top: 0;
+    font-size: 20px;
+    line-height: 55px;
+}
+.fffooter>form>button{
+    width: 52px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0;
+}
+.ffixright{
+    width: 50px;
+    height: 140px;
+    position: fixed;
+    bottom: 76px;
+    right: 20px;
+}
+.ffixright>p{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 1px solid #e6e6e6;
+    background:#fff url(../../IMG/index/footer/上.png) no-repeat 50% ;
+}
+.ffixright>p:nth-child(1){
+    background: #333 url(../../IMG/index/footer/消息.png) no-repeat 50%;
+    border: 0;
+}

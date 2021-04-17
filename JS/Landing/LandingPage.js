@@ -1,0 +1,27 @@
+$(function(){
+    var inputs = /^1[3-9]\d{9}$/;
+    $('.mbmfbrLogin').click(function(){
+        if(($('.mbmfbrtops>input').val().trim()=='')&&($('.mbmfbrtop>input').val().trim()=='')){
+            $('.mbmfbrTips').eq(0).removeClass('none');
+            $('.mbmfbrTips').eq(1).addClass('none')
+            $('.mbmfbrTips').eq(2).removeClass('none');
+            $('.mbmfbrtop>input').focus();
+            $('.mbmfbrtops>input').val('');
+            $('.mbmfbrtop>input').val('');
+            $('.mbmfbrtops>input').css({borderColor:'red'})
+            $('.mbmfbrtop>input').css({borderColor:'red'})
+        }else{
+            if(inputs.test($('.mbmfbrtop>input').val())){
+                $('.mbmfbrTips').eq(0).addClass('none')
+                $('.mbmfbrTips').eq(1).addClass('none')
+                $('.mbmfbrTips').eq(2).addClass('none')
+                $('.mbmfbrtops>input').css({borderColor:'transparent'})
+                $('.mbmfbrtop>input').css({borderColor:'transparent'})
+            }else{
+                $('.mbmfbrTips').eq(0).addClass('none');
+                $('.mbmfbrTips').eq(1).removeClass('none')
+                $('.mbmfbrTips').eq(2).addClass('none');
+            }
+        }
+    })
+})

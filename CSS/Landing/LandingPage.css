@@ -1,0 +1,233 @@
+.main{
+    width: 100%;
+    max-width: 1280px;
+    height: 694.2px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.mbox{
+    width: 100%;
+    height: 100%;
+}
+.mbmain{
+    width: 100%;
+    height: 654.2px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.mbmtop{
+    color: #000;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: calc((100% - 32px));
+    margin-bottom: 45px;
+    max-width: 920px;
+    position: relative;
+}
+.mbmtop>strong{
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 38px;
+    border-bottom: 1px solid #cac9c5;
+    margin-bottom: -19px;
+    padding-bottom: 26px;
+    padding-top: 55px;
+}
+.mbmtop>svg{
+    position: absolute;
+    bottom: -13px;
+    left: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    color: #b1a694;
+    border: 5px solid #fff;
+    background: #fff;
+}
+.mbmfooter{
+    background-color: #f0ede8;
+    width: 100%;
+    margin-bottom: 82px;
+    padding: 27px 20px;
+}
+.mbmfbox{
+    max-width: 730px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+.mbmfbox>p{
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: normal;
+    box-sizing: border-box;
+}
+.mbmfbox>div{
+    float: left;
+    width: 50%;
+}
+.mbmfbleft{
+    width: 50%;
+    height: 310px;
+    text-align: center;
+    padding-right: 0
+}
+.mbmfbleft>div{
+    cursor: default;
+}
+.mbmfbleft>div:nth-child(1){
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 14px;
+    background: url(../../IMG/index/header/img-login-scan.png) no-repeat 0 0;
+    display: inline-block;
+    padding-left: 26px;
+    line-height: 18px;
+    height: 18px;
+    margin-bottom: 19px;
+    letter-spacing: 2px;
+}
+.mbmfbleft>div:nth-child(2){
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background: url(../../IMG/index/header/erwm.jfif) no-repeat 0 0/100%;
+}
+.mbmfbleft>div:nth-child(3){
+    height: auto;
+    text-align: center;
+}
+.mbmfbleft>div:nth-child(3)>p{
+    color: #000;
+}
+.mbmfbright{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 8.2%;
+    margin-top: -10px;
+    position: relative;
+}
+.mbmfbrtop{
+    width: 100%;
+    height: 66.4px;
+    margin-bottom: 9.825px;
+}
+.mbmfbrtop>p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #3d3d3d;
+    letter-spacing: 1.6px;
+}
+.mbmfbrtop>input{
+    width: 100%;
+    height: 36px;
+    outline: 0;
+    border: 1px solid transparent;
+    padding: 0 13px;
+    box-sizing: border-box;
+}
+.mbmfbrtop>input::-webkit-input-placeholder{
+    color: #9B9B9B;
+    letter-spacing: 1.6px;
+}
+.mbmfbrtops{
+    width: 100%;
+    height: 66.4px;
+    margin-bottom: 9.825px;
+}
+.mbmfbrtops>p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #3d3d3d;
+    letter-spacing: 1.6px;
+}
+.mbmfbrtops>input{
+    width: 100%;
+    height: 36px;
+    outline: 0;
+    border: 1px solid transparent;
+    padding: 0 13px;
+    box-sizing: border-box;
+}
+.mbmfbrtops>input::-webkit-input-placeholder{
+    color: #9B9B9B;
+    letter-spacing: 1.6px;
+}
+.mbmfbrTips{
+    font-size: 13px;
+    color: #e02b27;
+    text-align: left;
+    font-weight: 400;
+}
+.mbmfbrTips>a{
+    color: #e02b27;
+    text-decoration: underline;
+}
+.mbmfbrmain{
+    width: 100%;
+    height: 18px;
+}
+.mbmfbrmain>input{
+    margin: 3px 5px 0 0;
+    float: left;
+}
+.mbmfbrmain>span{
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: normal;
+    text-align: left;
+    float: left;
+}
+.mbmfbrmain>a{
+    text-decoration: underline;
+    float: right;
+    color: #000;
+    font-size: 13px;
+}
+.mbmfbrLogins{
+    width: 260px;
+    height: 45px;
+    margin: 14px 0;
+    margin-top: 45px;
+}
+.mbmfbrLogin{
+    width: 88%;
+    height: 100%;
+    background: #000;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding:  0 25px;
+}
+.mbmfbrLogin>span{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    cursor: pointer;
+    font-weight: 300px;
+}
+.mbmfbrLogins+p{
+    font-size: 13px;
+    margin-top: -7px;
+}
+.mbmfbrLogins+p>a{
+    color: #000;
+    text-decoration: underline;
+}

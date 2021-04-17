@@ -1,0 +1,324 @@
+.main{
+    width: 100%;
+    height: auto;
+}
+.mtop{
+    width: 100%;
+    height: 368.19px;
+    position: relative;
+}
+.mtop>img{
+    width: 100%;
+    min-height: 383px;
+}
+.mtnav{
+    width: 100%;
+    height: auto;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mtnav>p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #a3a3a3;
+    cursor: default;
+}
+.mtnav>p>a{
+    color: #a3a3a3;
+}
+.mtnav>p>a:hover{
+    text-decoration: underline;
+}
+.mtfo{
+    width: 100%;
+    height: 50px;
+    padding:  0 0 10px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+    letter-spacing: 5px;
+    cursor: default;
+}
+.mDline{
+    width: 100%;
+    height: 160px;
+    padding: 50px;
+    background: #f0ede8;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+}
+/* 主体部分 */
+.mmain{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.mmnav{
+    width: 100%;
+    height: 81px;
+    padding: 15px 0;
+    border-bottom: 2px solid #e6e6e6;
+}
+.mmnleft{
+    display: inline-block;
+    margin: 0;
+    padding-left: 40px;
+    width: calc(100% - 430px);
+}
+.mmnleft>div:nth-child(1){
+    margin-bottom: 0;
+    display: inline-block;
+    line-height: 50px;
+    cursor: default;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.mmnleft>div:nth-child(2){
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    width: calc(100% - 90px);
+}
+.mmnleft>div:nth-child(2)>div{
+    width: calc(100% - 150px) !important;
+    max-width: calc(100% - 150px);
+}
+.category>dl{
+    display: inline-block;
+    position: relative;
+    margin: 0 -3px;
+}
+.category>dl>dt{
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-right: 40px;
+    border: none;
+    font-size: 12px;
+    line-height: 4.16667;
+    height: 50px;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    font-family: 'FuturaMedium';
+    font-weight: 300;
+}
+.category>dl>dt>i{
+    display: inline-block;
+    content: "\f0d7";
+    font-family: 'Font Awesome';
+    margin-left: 10px;
+    border-left: 3.93px solid transparent;
+    border-right: 3.93px solid transparent;
+    border-top: 7.86px solid #333;
+}
+.category>dl>dd{
+    margin: 0;
+    min-width: 252px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1;
+}
+.category>dl>dd>ol>li{
+    padding: 0 20px;
+    line-height: 30px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    color: #fff;
+    letter-spacing: 1px;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.category>dl>dd>ol>li:hover{
+    text-decoration: underline;
+}
+.mmnright{
+    padding-right: 40px;
+    float: right;
+}
+.mmnright>div{
+    line-height: 50px;
+    font-size: 12px;
+}
+.mmnright>div>li{
+    position: relative;
+    display: inline-block;
+    margin: 0 30px 0 0;
+    padding: 0 10px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    cursor: default;
+}
+.mmnright>div>li>i{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 0;
+}
+.mmnright>div>span{
+    line-height: 50px;
+    font-size: 12px;
+    cursor: default;
+}
+.mmmain{
+    width: 100%;
+    max-width: 1380px;
+    height: auto;
+    margin: 0 auto;
+}
+.mmmain>div{
+    width: 100%;
+    height: auto;
+}
+.mmmain>div>p>strong{
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    font-size: 27px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 20px;
+}
+.mmmain>div>ol{
+    margin-bottom: 30px;
+    font-size: 0;
+    box-sizing: border-box;
+}
+.mmmain>div>ol>li:first-child{
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.mmmain>div>ol>li{
+    vertical-align: top;
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.mmmain>div>ol>li>img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.mmmosp{
+    padding-top: 0;
+    display: table;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 669.6px;
+    height: 80px;
+    background: #2c2c2c;
+    color: #fff;
+}
+.mmmosp>a{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    vertical-align: middle;
+    display: inline-block;
+    width: 85px;
+    height: 62px;
+    text-align: center;
+    background: #000;
+    margin: 0 20px 0 10px;
+}
+.mmmosp>a>i{
+    display: block;
+    border-top: 11.73px solid transparent;
+    border-left: 20px solid #fff;
+    border-bottom: 11.73px solid transparent;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.mmmosp>h3{
+    padding-left: 115px;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 18px;
+    letter-spacing: 5px;
+    width: 100%;
+}
+.mmmsp{
+    width: 100%;
+    background-color: #f0ede8;
+    height: 0;
+    padding-bottom: 141.3636363636364%;
+    position: relative;
+}
+.mmmsp>div{
+    vertical-align: middle;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+.mmmsp>div>img{
+    height: auto;
+    max-width: 100%;
+}
+.mmmsp>a>span{
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: #2c2c2c;
+    color: #fff;
+    transition: opacity .4s ease;
+    text-align: center;
+    opacity: 0;
+}
+.mmmsp>a>span>div{
+    padding-top: 50%;
+}
+.mmmsp>a>span>div>span{
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+.mmmsp>a>span>div>strong{
+    display: block;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: .2rem;
+    padding-left: 5px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.mmmsp>a>span>div>p{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #fff;
+    margin: 10px 0 25px;
+}
